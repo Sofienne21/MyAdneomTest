@@ -53,7 +53,7 @@ public class PartitionTest {
 	}
 	
 	@Test
-	public void SHOULD_RETURN_SAME_LIST_WHEN_PARTITION_GT_LIST_SIZE(){
+	public void SHOULD_RETURN_12345_WHEN_LIST_IS_12345_AND_PARTISION_SIZE_7(){
 		List[] list = MakePartition.partition(Arrays.asList(1,2,3,4,5), 7);
 		assertTrue(list.length==1);
 		assertEquals(list[0], Arrays.asList(1,2,3,4,5));
